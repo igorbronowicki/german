@@ -59,7 +59,7 @@ table {
         }
     table tbody tr:nth-child(odd) td,
     table tbody tr:nth-child(odd) th {
-        background-color: #f9f9f9;
+        background-color: #fff;
         }
     table tbody tr:hover td,
     table tbody tr:hover th {
@@ -106,7 +106,7 @@ header {
             top: 24px;
             }
         header b {
-            color: #4d595d;
+            color: #fff;
             font-size: 12px;
             padding: 10px 0 10px 30px;
             border-left: 1px solid #2c3638;
