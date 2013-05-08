@@ -86,25 +86,18 @@ a:hover {
     text-decoration: none;
     }
 
+figure.center {
+    text-align: center;
+    }
 figure img {
-    display: block;
     background: #e2e2e2;
     padding: 5px;
     border-radius: 10px;
-    }
-figure.center img {
-    margin: 0 auto;
-    }
-figure.multi img {
-    display: inline-block;
     }
 figure figcaption {
     display: block;
     margin-top: 5px;
     font-style: italic;
-    }
-figure.center figcaption {
-    text-align: center;
     }
 
 
