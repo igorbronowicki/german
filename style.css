@@ -19,7 +19,9 @@ body {
 
 p,
 table,
-figure {
+figure,
+h1,
+h6 {
     margin-bottom: 20px;
     }
 
@@ -27,7 +29,14 @@ h1 {
     color: #2b3638;
     font: normal 30px Arial, Helvetica, sans-serif;
     text-align: center;
-    margin: 40px 0 20px;
+    margin-top: 40px;
+    }
+
+h6 {
+    color: #3c4a4d;
+    font: normal 13px Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: bold;
     }
 
 strong {
@@ -124,7 +133,7 @@ header {
             color: #ffffff;
             font-size: 12px;
             padding: 10px 0 10px 30px;
-            border-left: 1px solid #fff;
+            border-left: 1px solid #7f7f80;
             position: absolute;
             left: 80px;
             top: 32px;
