@@ -59,10 +59,22 @@ table {
         }
     table tbody tr:nth-child(odd) td,
     table tbody tr:nth-child(odd) th {
+        background-color: #f6f6f6;
+        }
+    table.map tbody tr:nth-child(odd) td,
+    table.map tbody tr:nth-child(odd) th {
         background-color: #fff;
         }
     table tbody tr:hover td,
     table tbody tr:hover th {
+        background-color: #fff9e4;
+        }
+    table.map tbody tr:hover td,
+    table.map tbody tr:hover th {
+        background-color: #fff;
+        }
+    table.map tbody tr td:hover,
+    table.map tbody tr th:hover {
         background-color: #fff9e4;
         }
 
@@ -80,9 +92,19 @@ figure img {
     padding: 5px;
     border-radius: 10px;
     }
+figure.center img {
+    margin: 0 auto;
+    }
+figure.multi img {
+    display: inline-block;
+    }
 figure figcaption {
+    display: block;
     margin-top: 5px;
     font-style: italic;
+    }
+figure.center figcaption {
+    text-align: center;
     }
 
 
@@ -106,10 +128,10 @@ header {
             top: 24px;
             }
         header b {
-            color: #fff;
+            color: #ffffff;
             font-size: 12px;
             padding: 10px 0 10px 30px;
-            border-left: 1px solid #2c3638;
+            border-left: 1px solid #fff;
             position: absolute;
             left: 80px;
             top: 32px;
